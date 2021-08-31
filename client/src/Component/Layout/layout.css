@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  display: flex;
+  margin-left: 15%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.logo > div {
+  margin-right: 5%;
+}
+
+.navigationLink {
+  display: flex;
+  align-items: center;
+}
+.navigationLink > div {
+  cursor: pointer;
+  margin-left: 10%;
+}
+
+.rightDiv {
+  display: flex;
+  margin-right: 15%;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+.clickableLink {
+  display: flex;
+  margin-bottom: 5%;
+}
+.clickableLink > div {
+  cursor: pointer;
+  margin-right: 5%;
+}
+
+.cart {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.footer {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c8cbce61;
+  width: 100%;
+  font-size: 10px;
+  margin-top: 10px;
+}
